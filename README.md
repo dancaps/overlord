@@ -1,4 +1,4 @@
-# overlord
+# OverLord
 
 Overlord is a python flask application.
 
