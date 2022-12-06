@@ -6,6 +6,9 @@ The purpose of this project is to learn and test the following technologies.
 
     Terraform
         Modules
+        Terraform Cloud
+    Github
+        Codespaces
     GCP
         Big Query
         Cloud Instances
