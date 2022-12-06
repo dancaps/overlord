@@ -21,14 +21,9 @@ output "vpc_name" {
   value       = module.development.vpc_name
 }
 
-output "vpc_id" {
-  description = "Overlord vpc id"
-  value       = module.development.vpc_id
-}
-
-output "vpc_cidr_range" {
-  description = "Overlord vpc cidr range"
-  value       = module.development.vpc_cidr_range
+output "vpc_self_link" {
+  description = "Overlord vpc self link"
+  value       = module.development.vpc_self_link
 }
 
 # Database outputs
