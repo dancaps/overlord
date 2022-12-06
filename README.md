@@ -19,14 +19,14 @@ The purpose of this project is to learn and test the following technologies.
 Mostly though I think this stuff is cool and it will be fun to set this up.
 
 
-TODO: 
-    Setup terraform cloud
-    Enable web server on the instance
-    Create flask application
-    Setup big query as the database provider
+    TODO: 
+        Setup terraform cloud
+        Enable web server on the instance
+        Create flask application
+        Setup big query as the database provider
 
-Completed:
-    Create instance
-    Setup network
-    Structure repo
-    Create infrastructure module
+    Completed:
+        Create instance
+        Setup network
+        Structure repo
+        Create infrastructure module
