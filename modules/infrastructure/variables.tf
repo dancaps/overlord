@@ -3,7 +3,7 @@
 variable "tags" {
   description = "Tags"
   type        = string
-  default     = "NULL"
+  default     = "overlord"
 }
 
 variable "region" {

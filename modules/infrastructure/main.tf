@@ -4,7 +4,7 @@ resource "google_compute_instance" "vm_instance" {
   name         = var.instance_name
   machine_type = var.machine_type
   zone         = var.zone
-  tags         = [var.tags]
+  tags         =  ["overlord"]#["$var.tags"]
 
   boot_disk {
     initialize_params {
@@ -13,7 +13,7 @@ resource "google_compute_instance" "vm_instance" {
   }
 
   network_interface {
-    network = google_compute_subnetwork.subnet.id
+    subnetwork = google_compute_subnetwork.subnet.id
     access_config {
     }
   }
